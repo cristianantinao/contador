@@ -1,0 +1,27 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: top;
+}
+
+h1{
+    background-color: aquamarine;
+}
+p{
+    display: flex;
+    justify-content: center;
+}
+.content{
+    display: flex;
+    justify-content:space-between;
+    
+    
+}
+
+a{
+    border: 1px solid black;
+    padding: 3px;
+    text-decoration: none;
+    background-color: #e5e5e5;
+    color: black;
+}

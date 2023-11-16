@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contador</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles.css') }}">
+
+
+</head>
+<body>
+    <div>
+    <h1>Contador</h1>
+    <p>{{ session['count'] }} vez</p>
+        <div class="content">
+            <a href='/'>click</a>
+            <a href='/reseteo'>reset</a>
+        </div>
+    </div>
+</body>
+</html>
